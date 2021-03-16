@@ -1,0 +1,48 @@
+:root {
+  --white: white;
+  --black: #000;
+  --green: #a9ce91;
+  --lightGreen: #a9ce9129;
+}
+
+html, body {
+  font-family: "Raleway", sans-serif;
+}
+
+body {
+  overflow-x: hidden;
+}
+
+.flex {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.row {
+  flex-direction: row;
+}
+
+.body-container {
+  max-width: 1200px;
+  width: 100%;
+  margin: 0 auto;  
+}
+
+.section-title-underline {
+  height: 5px;
+  width: 65px;
+  background: var(--green);
+  border-radius: 10px;
+
+  &.sub-header-underline {
+      height: 3px;
+      width: 55px;
+      background: var(--green);
+      border-radius: 10px;
+      justify-content: center;
+      margin: 0 auto;
+      margin-top: 5px;
+  }
+}
