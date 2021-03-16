@@ -10,18 +10,17 @@
     align-items: flex-start;
     padding: 50px 0 50px 0;
 
-
     @media screen and (max-width: 960px) {
         flex-direction: column;
         align-items: center;
 
-        .section-shop, .section-shop-img {
+        .section-shop {
             max-width: 100% !important;
+            padding: 0 40px !important;
         }
 
         .section-shop-img {
-            width: auto !important;
-            margin-top: 55px !important;
+            display: none !important;
         }
     }
 
@@ -54,6 +53,11 @@
             right: -30px;
             z-index: 99;
 
+            @media screen and (max-width: 600px) {
+                right: 50px;
+                margin-top: 60px;
+            }
+
             .shop-btn {
                 height: 70px;
                 width: 215px;
@@ -75,11 +79,11 @@
                 &::before {
                     content: "";
                     height: 1px;
-                    width: 825px;
+                    width: calc(100% + 38%);
                     background-color: var(--green);
                     position: absolute;
                     top: 50%;
-                    left: -400px
+                    left: -400px;
                 }
             }
         }
@@ -90,12 +94,21 @@
             font-weight: bold;
             color: var(--lightGreen);
 
+            @media screen and (max-width: 600px) {
+                font-size: 120px;
+                text-align: right;
+            }
+
             .coffee-beans {
                 position: relative;
                 top: 110px;
                 height: 100px;
                 left: -70px;
                 width: 260px;
+
+                @media screen and (max-width: 600px) {
+                    left: -15px;
+                }
             }
         }
 
