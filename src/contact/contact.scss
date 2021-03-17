@@ -16,13 +16,10 @@
         flex-direction: column;
         align-items: center;
 
-        .section-contact {
+        .section-contact, .section-contact-form {
             max-width: 100% !important;
+            width: auto !important;
             padding: 0 40px !important;
-        }
-
-        .section-contact-form {
-            max-width: 100% !important;
         }
     }
 

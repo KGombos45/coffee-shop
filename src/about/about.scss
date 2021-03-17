@@ -115,8 +115,13 @@
                         width: calc(100% - 49%);
                         left: 700px;
 
-                        @media screen and (max-width: 600px) {
+                        @media screen and (min-width: 480px) and (max-width: 600px) {
                             width: calc(100% - 38%);
+                            left: 0;
+                        }
+
+                        @media screen and (min-width: 250px) and (max-width: 480px) {
+                            width: calc(100% - 44%);
                             left: 0;
                         }
                     }

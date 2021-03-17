@@ -31,6 +31,7 @@
         }
 
         .section-wholesale-img {
+            width: auto !important;
             max-width: 100% !important;
         }
     }
@@ -41,6 +42,7 @@
 
     .section-partner, .section-wholesale-img {
         color: var(--white);
+        display: block;
     
         .wholesale-text {
             font-size: 20px;
@@ -59,7 +61,6 @@
             text-align: left;
 
             @media screen and (max-width: 600px) {
-                right: 50px;
                 margin-top: 360px;
             }
 
@@ -83,14 +84,18 @@
         }
 
         .image-container {
-            width: 100%;
+            width: 650px;
 
             @media screen and (max-width: 600px) {
-                text-align: center;
+                width: 100%;
             }
 
             img {
                 filter: invert(1);
+
+                @media screen and (max-width: 600px) {
+                    width: 100%;
+                }
             }
         }
     }
