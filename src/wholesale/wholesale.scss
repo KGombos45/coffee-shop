@@ -83,16 +83,14 @@
         }
 
         .image-container {
-            width: 650px;
+            width: 100%;
 
             @media screen and (max-width: 600px) {
-                width: 100%;
                 text-align: center;
             }
 
             img {
                 filter: invert(1);
-                width: 80%;
             }
         }
     }
