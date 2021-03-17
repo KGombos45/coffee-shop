@@ -126,15 +126,13 @@
                 .menu-link {
                     display: block;
                     color: var(--white);
-                    padding: 0 20px;
+                    padding: 5px 0 5px 25px;
                     font-size: 16px;
                     text-transform: uppercase;
                     transition: all 0.5s;
                     cursor: pointer;
                     font-weight: bold;
                     text-align: left;
-                    padding: 5px;
-                    padding-left: 25px;
                     visibility: visible;
 
                     &:hover {
