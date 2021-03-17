@@ -37,21 +37,22 @@
             flex-wrap: wrap;
             width: 100%;
 
-            .ewJlEB {
+            .rec-carousel-wrapper {
+                width: 100%;
                 @media screen and (min-width: 600px) {
                     display: none;
                 }
 
-                .galrjd {
+                .rec-carousel {
                     height: 450px !important;
                     width: 100%;
                 }
                 
-                .kFXEwu, .ewJlEB {
+                .rec-slider {
                     width: 100%;
                 }
                 
-                .cukhLH {
+                .rec-slider-container {
                     margin: 0;
                 }
 
@@ -60,20 +61,16 @@
                     height: 100%;
                 }
 
-                .cJeRRR, .guuruq {
+                .rec-dot {
                     width: 14px;
                     height: 14px;
                     box-shadow: none;
-                }
-                
-                .cJeRRR {
-                    background-color: var(--green);
-                }
-
-                .guuruq {
                     background-color: var(--lightGreen);
                 }
-
+                
+                .rec-dot_active {
+                    background-color: var(--green);
+                }
 
             }
 
