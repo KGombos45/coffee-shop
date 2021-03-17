@@ -1,6 +1,7 @@
 import React from 'react'
 import './wholesale.scss';
 import ScrollAnimation from 'react-animate-on-scroll';
+import wholeSaleGroup from '../assets/img/wholesale-group.svg';
 
 function AppWholeSale() {
     return (
@@ -24,10 +25,10 @@ function AppWholeSale() {
                         </div>
                         <div className="flex section-wholesale-img">
                             <div className="image-container">
-                                <img src="wholesale-group.svg"></img>
+                                <img src={wholeSaleGroup}></img>
                                 <div className="button-container">
                             <a>
-                                <button type="primary" className="shop-btn">
+                                <button type="primary" className="indie-btn">
                                     LEARN MORE
                                 </button>
                             </a>

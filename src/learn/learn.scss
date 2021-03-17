@@ -69,47 +69,27 @@
         }
 
         .button-container {
-            width: 100%;
-            position: absolute;
             margin-top: 70px;
             text-align: left;
-            z-index: 99;
 
             @media screen and (max-width: 600px) {
                 right: 50px;
                 margin-top: 305px;
             }
 
-            .shop-btn {
-                height: 70px;
+            .indie-btn {
                 width: 250px;
-                background: transparent;
-                border: none;
-                letter-spacing: 3px;
-                color: var(--green);
-                z-index: 99;
-                font-size: 24px;
-                border: 1px var(--green) solid;
-                transition: all 0.5s ease-in-out;
-                cursor: pointer;
 
-                &:hover {
-                    background: var(--green);
-                    color: var(--white);
+                @media screen and (max-width: 600px) {
+                    width: 205px;
                 }
 
                 &::before {
-                    content: "";
-                    height: 1px;
                     width: calc(100% + 34%);
-                    background-color: var(--green);
-                    position: absolute;
-                    top: 50%;
                     right: -430px;
-
                     
                     @media screen and (max-width: 600px) {
-                        width: calc(100% - 24%);
+                        width: calc(100% - 8%);
                         right: -160px;
                     }
                 }

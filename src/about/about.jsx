@@ -1,21 +1,25 @@
 import React from 'react';
 import './about.scss';
 import ScrollAnimation from 'react-animate-on-scroll';
+import Carousel from 'react-elastic-carousel';
+import coffeeBags from '../assets/img/about-coffeebags.jpg';
+import indieDog from '../assets/img/about-indie.jpg';
+import oldCoffeeBags from '../assets/img/about-oldcoffeebags.jpg';
 
 
 function AppAbout() {
 
     const Data = [
         {
-            "src": "about-coffeebags.jpg",
+            "src": coffeeBags,
             "alt": "Coffee Bags"
         },
         {
-            "src": "about-indie.jpg",
+            "src": indieDog,
             "alt": "Indie Dog"
         },
         {
-            "src": "about-oldcoffeebags.jpg",
+            "src": oldCoffeeBags,
             "alt": "Old Coffee Bags"
         }
     ];
@@ -39,7 +43,7 @@ function AppAbout() {
                         <div className="imgs-container flex row">
                         {
 
-                            Data.map((item, index) => {
+                            Data.map((item) => {
                                 return (
                                     <div className="img-container">
                                         <img src={item.src} alt={item.alt}></img>
@@ -50,6 +54,10 @@ function AppAbout() {
 
                         }
 
+                        <Carousel showArrows={false}>
+                            {Data.map(item => <img src={item.src} alt={item.alt}></img>)}
+                        </Carousel>
+
                         </div>
 
                         <div className="about-text">
@@ -57,7 +65,7 @@ function AppAbout() {
 
                             <div className="button-container">
                                 <a>
-                                    <button type="primary" className="shop-btn">
+                                    <button type="primary" className="indie-btn">
                                         LEARN MORE
                                     </button>
                                 </a>

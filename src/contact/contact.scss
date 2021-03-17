@@ -24,7 +24,7 @@
         }
 
         .section-contact-form {
-            width: 100% !important;
+            max-width: 100% !important;
         }
     }
 
@@ -76,43 +76,28 @@
         }
 
         .button-container {
-            width: 100%;
-            position: absolute;
             margin-top: 40px;
             text-align: left;
-            z-index: 99;
 
             @media screen and (max-width: 600px) {
-                right: 50px;
                 margin-top: 60px;
             }
 
-            .shop-btn {
-                height: 70px;
+            .indie-btn {
                 width: 250px;
-                background: transparent;
-                border: none;
-                letter-spacing: 3px;
-                color: var(--green);
-                z-index: 99;
-                font-size: 24px;
-                border: 1px var(--green) solid;
-                transition: all 0.5s ease-in-out;
-                cursor: pointer;
 
-                &:hover {
-                    background: var(--green);
-                    color: var(--white);
+                @media screen and (max-width: 600px) {
+                    width: 170px;
                 }
 
                 &::before {
-                    content: "";
-                    height: 1px;
                     width: calc(100% + 36%);
-                    background-color: var(--green);
-                    position: absolute;
-                    top: 50%;
                     right: -400px;
+
+                    @media screen and (max-width: 600px) {
+                        width: calc(100% - 22%);
+                        right: -60px;
+                    }
                 }
             }
         }

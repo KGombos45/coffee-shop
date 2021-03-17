@@ -1,36 +1,33 @@
 import React from 'react';
-import './contact.scss';
+import './subscribe.scss';
 import ScrollAnimation from 'react-animate-on-scroll';
 
-function AppContact() {
+function AppSubscribe() {
     return (
-        <section className="contact" id="contact">
+        <section className="subscribe" id="subscribe">
             <div className="body-container flex">
             <ScrollAnimation animateIn='fadeIn' initiallyVisible={false} animateOnce={true} duration={1.4}>
-                <div className="contact-container flex row">
-                    <div className="flex section-contact">
+                <div className="subscribe-container flex row">
+                    <div className="flex section-subscribe">
                         <div className="section-sub-header">
-                            Contact Us
+                            Join Our Email List
                             <div className="section-title-underline sub-header-underline" />
                         </div>
-                        <div className="contact-text">
-                            Questions? Comments? Concerns? We’d love to hear from you. Drop us a line and we’ll fetch you an answer right away.                       
+                        <div className="subscribe-text">
+                            Keep a leash on all our upcoming events, promotional deals, and other announcements with our newsletter sent right to your inbox. You might even receive a birthday surprise when the time comes!                        
+                        </div>
+                        <div className="section-title">
+                            EMAIL
                         </div>
                     </div>
-                    <div className="flex section-contact-form">
-                        <div className="input-container">
-                            <input type="text" placeholder="NAME" className="indie-input"></input>
-                        </div>
+                    <div className="flex section-subscribe-form">
                         <div className="input-container">
                             <input type="email" placeholder="EMAIL" className="indie-input"></input>
                         </div>
-                        <div className="input-container">
-                            <textarea placeholder="MESSAGE" className="indie-textarea"></textarea>
-                        </div>
                         <div className="button-container">
                         <a href="https://indie-coffee-roasters.square.site/" target="_blank" rel="noreferrer">
-                            <button type="primary" className="shop-btn">
-                                SUBMIT
+                            <button type="primary" className="indie-btn">
+                                SIGNUP
                             </button>
                         </a>
                         </div>
@@ -42,4 +39,4 @@ function AppContact() {
     )
 }
 
-export default AppContact
+export default AppSubscribe

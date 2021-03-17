@@ -1,6 +1,7 @@
 import React from 'react';
 import './learn.scss';
 import ScrollAnimation from 'react-animate-on-scroll';
+import learn from '../assets/img/learn.svg';
 
 function AppLearn() {
     return (
@@ -22,10 +23,10 @@ function AppLearn() {
                         </div>
                         <div className="flex section-learn-img">
                             <div className="image-container">
-                                <img src="learn.svg"></img>
+                                <img src={learn}></img>
                                 <div className="button-container">
                             <a>
-                                <button type="primary" className="shop-btn">
+                                <button type="primary" className="indie-btn">
                                     READ MORE
                                 </button>
                             </a>
