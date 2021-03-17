@@ -23,6 +23,12 @@
         }
     }
 
+    @media screen and (max-width: 480px) {
+        .section-contact-form {
+            margin-left: 15px !important;
+        }
+    }
+
     .section-contact, .section-contact-form {
         display: block;
         flex: 1 1 50%;
