@@ -5,7 +5,7 @@
         margin-bottom: -130px;
     
         @media screen and (max-width: 600px) {
-            margin-bottom: -100px;
+            margin-bottom: -100px !important;
             font-size: 120px;
         }
     }
@@ -116,8 +116,6 @@
                     &::before {
                         left: -216px;
                         width: calc(100% - 1%);
-
-
 
                         @media screen and (max-width: 375px) {
                             width: calc(100% - 66%);
