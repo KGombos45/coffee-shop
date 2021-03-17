@@ -11,6 +11,7 @@
     }
 
     .about-section {
+        margin: 0 50px;
         
         .section-sub-header {
             font-size: 48px;
@@ -31,7 +32,7 @@
 
             .rec-carousel-wrapper {
                 width: 100%;
-                @media screen and (min-width: 600px) {
+                @media screen and (min-width: 1000px) {
                     display: none;
                 }
 
@@ -72,7 +73,7 @@
                 display: inline-block;
                 margin: 10px;
 
-                @media screen and (max-width: 600px) {
+                @media screen and (max-width: 1000px) {
                     display: none;
                 }
 
@@ -96,7 +97,8 @@
             .button-container {
                 margin-top: 30px;
                 text-align: right;
-                right: 700px;
+                right: 155px;
+                position: relative;
     
                 @media screen and (max-width: 600px) {
                     right: 50px;
@@ -112,17 +114,35 @@
                     }
         
                     &::before {
-                        width: calc(100% - 49%);
-                        left: 700px;
+                        left: -216px;
+                        width: calc(100% - 1%);
 
-                        @media screen and (min-width: 480px) and (max-width: 600px) {
-                            width: calc(100% - 38%);
-                            left: 0;
+
+
+                        @media screen and (max-width: 375px) {
+                            width: calc(100% - 66%);
+                            left: 0px;
                         }
 
-                        @media screen and (min-width: 250px) and (max-width: 480px) {
-                            width: calc(100% - 44%);
-                            left: 0;
+                        @media screen and (min-width: 480px) and (max-width: 600px) {
+                            width: calc(100% - 18%);
+                            left: -130px;
+                        }
+
+                        
+                        @media screen and (min-width: 600px) and (max-width: 800px) {
+                            width: calc(100% - 18%);
+                            left: -130px;
+                        }
+
+                        @media screen and (min-width: 800px) and (max-width: 1000px) {
+                            width: calc(100% - 14%);
+                            left: -130px;
+                        }
+
+                        @media screen and (min-width: 1000px) and (max-width: 1150px) {
+                            width: calc(100% - 11%);
+                            left: -130px;
                         }
                     }
                 }

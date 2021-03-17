@@ -10,7 +10,15 @@
 .shop-container {
     padding: 50px 0 50px 0;
 
-    @media screen and (max-width: 960px) {
+    
+    @media screen and (min-width: 1000px) and (max-width: 1300px) {
+        .section-shop {
+            margin-left: 120px;
+        }
+    }
+    
+
+    @media screen and (max-width: 1000px) {
         flex-direction: column;
         align-items: center;
 
@@ -25,7 +33,6 @@
     }
 
     .section-shop, .section-shop-img {
-        margin: 0;
         display: block;
 
         .shop-text {
@@ -59,8 +66,8 @@
                 }
 
                 &::before {
-                    width: calc(100% + 40%);
-                    left: -445px;
+                    width: calc(100% + 48%);
+                    left: -420px;
 
                     @media screen and (max-width: 600px) {
                         left: 0;
@@ -71,6 +78,8 @@
         }
 
         .section-title {
+            margin-bottom: 0;
+            
             @media screen and (max-width: 600px) {
                 font-size: 120px;
                 text-align: right;
@@ -94,9 +103,19 @@
             width: 650px;
             z-index: -5;
 
+            @media screen and (min-width: 1000px) and (max-width: 1300px) {
+                width: 450px;
+                height: 450px;
+            }
+
             img {
                 height: 650px;
                 width: 650px;
+
+                @media screen and (min-width: 1000px) and (max-width: 1300px) {
+                    width: 450px;
+                    height: 450px;
+                }
             }
         }
 
@@ -107,6 +126,11 @@
             width: 650px;
             height: 650px;
             background: #0000003d;
+
+            @media screen and (min-width: 1000px) and (max-width: 1300px) {
+                width: 450px;
+                height: 450px;
+            }
           }
     }
 

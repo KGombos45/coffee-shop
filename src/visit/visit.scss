@@ -57,17 +57,22 @@
                 }
 
                 &::before {
-                    width: calc(100% + 22%);
+                    width: calc(100% + 18%);
                     left: -480px;
+
+                    @media screen and (min-width: 250px) and (max-width: 480px) {
+                        left: 0;
+                        width: calc(100% - 66%);
+                    }
 
                     @media screen and (min-width: 480px) and (max-width: 600px) {
                         left: 0;
                         width: calc(100% - 58%)
                     }
 
-                    @media screen and (min-width: 250px) and (max-width: 480px) {
-                        left: 0;
-                        width: calc(100% - 66%);
+                    @media screen and (min-width: 600px) and (max-width: 950px) {
+                        left: -170px;
+                        width: calc(100% - 32%);
                     }
                 }
             }

@@ -41,6 +41,7 @@
         .learn-text {
             font-size: 20px;
             line-height: 1.4em;
+            margin-bottom: 60px;
         }
     
         .section-sub-header {
@@ -55,9 +56,16 @@
             text-align: left;
 
             @media screen and (max-width: 600px) {
-                margin-top: 305px;
+                margin-top: 360px;
             }
 
+            @media screen and (min-width: 800px) and (max-width: 1000px) {
+                margin-top: 235px;
+            }
+
+            @media screen and (min-width: 600px) and (max-width: 800px) {
+                margin-top: 275px;
+            }
             .indie-btn {
                 width: 250px;
 
@@ -68,9 +76,24 @@
                 &::before {
                     width: calc(100% + 34%);
                     right: -430px;
-                    
+
                     @media screen and (max-width: 600px) {
-                        width: calc(100% - 8%);
+                        width: calc(100% - 10%);
+                        right: -160px;
+                    }
+
+                    @media screen and (min-width: 1000px) and (max-width: 1300px) {
+                        width: calc(100% - 13%);
+                        right: -160px;
+                    }
+
+                    @media screen and (min-width: 800px) and (max-width: 1000px) {
+                        width: calc(100% - 4%);
+                        right: -210px;
+                    }
+
+                    @media screen and (min-width: 600px) and (max-width: 800px) {
+                        width: calc(100% - 15%);
                         right: -160px;
                     }
                 }
@@ -79,6 +102,22 @@
 
         .image-container {
             width: 650px;
+
+            @media screen and (min-width: 1050px) and (max-width: 1300px) {
+                width: 535px;
+            }
+
+            @media screen and (min-width: 1000px) and (max-width: 1050px) {
+                width: 455px;
+            }
+
+            @media screen and (min-width: 800px) and (max-width: 1000px) {
+                width: 455px;
+            }
+
+            @media screen and (min-width: 600px) and (max-width: 800px) {
+                width: 455px;
+            }
 
             @media screen and (max-width: 600px) {
                 width: 100%;

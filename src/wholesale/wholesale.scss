@@ -9,19 +9,31 @@
 
     @media screen and (min-width: 375px) and (max-width: 480px) {
         font-size: 45px;
-        margin-bottom: -40px;
+        margin-bottom: -40px !important;
     }
 
     @media screen and (min-width: 480px) and (max-width: 600px) {
         font-size: 55px;
-        margin-bottom: -40px;
+        margin-bottom: -40px !important;
     }
+
+    
+    @media screen and (min-width: 600px) and (max-width: 800px) {
+        font-size: 80px;
+        margin-bottom: -40px !important;
+    }
+
+    @media screen and (min-width: 800px) and (max-width: 1050px) {
+        font-size: 120px;
+        margin-bottom: -40px !important;
+    }
+
 }
 
 .wholesale-container {
     padding: 50px 0 50px 0;
 
-    @media screen and (max-width: 960px) {
+    @media screen and (max-width: 1000px) {
         flex-direction: column-reverse;
         align-items: center;
 
@@ -64,6 +76,14 @@
                 margin-top: 360px;
             }
 
+            @media screen and (min-width: 800px) and (max-width: 1000px) {
+                margin-top: 235px;
+            }
+
+            @media screen and (min-width: 600px) and (max-width: 800px) {
+                margin-top: 275px;
+            }
+
             .indie-btn {
                 width: 250px;      
 
@@ -79,12 +99,39 @@
                         width: calc(100% - 10%);
                         right: -160px;
                     }
+
+                    @media screen and (min-width: 1000px) and (max-width: 1300px) {
+                        width: calc(100% - 13%);
+                        right: -160px;
+                    }
+
+                    @media screen and (min-width: 800px) and (max-width: 1000px) {
+                        width: calc(100% - 11%);
+                        right: -160px;
+                    }
+
+                    @media screen and (min-width: 600px) and (max-width: 800px) {
+                        width: calc(100% - 15%);
+                        right: -160px;
+                    }
                 }
             }
         }
 
         .image-container {
             width: 650px;
+
+            @media screen and (min-width: 1050px) and (max-width: 1300px) {
+                width: 535px;
+            }
+
+            @media screen and (min-width: 1000px) and (max-width: 1050px) {
+                width: 455px;
+            }
+
+            @media screen and (min-width: 600px) and (max-width: 800px) {
+                width: 455px;
+            }
 
             @media screen and (max-width: 600px) {
                 width: 100%;
