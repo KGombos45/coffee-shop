@@ -1,25 +1,25 @@
 {
   "files": {
-    "main.css": "/coffee-shop/static/css/main.dd2978a8.chunk.css",
-    "main.js": "/coffee-shop/static/js/main.1ba61406.chunk.js",
-    "main.js.map": "/coffee-shop/static/js/main.1ba61406.chunk.js.map",
-    "runtime-main.js": "/coffee-shop/static/js/runtime-main.072d5313.js",
-    "runtime-main.js.map": "/coffee-shop/static/js/runtime-main.072d5313.js.map",
+    "main.css": "/coffee-shop/static/css/main.1891fab0.chunk.css",
+    "main.js": "/coffee-shop/static/js/main.237ce4ec.chunk.js",
+    "main.js.map": "/coffee-shop/static/js/main.237ce4ec.chunk.js.map",
+    "runtime-main.js": "/coffee-shop/static/js/runtime-main.92088083.js",
+    "runtime-main.js.map": "/coffee-shop/static/js/runtime-main.92088083.js.map",
     "static/css/2.5d0bae80.chunk.css": "/coffee-shop/static/css/2.5d0bae80.chunk.css",
-    "static/js/2.88d9a1a2.chunk.js": "/coffee-shop/static/js/2.88d9a1a2.chunk.js",
-    "static/js/2.88d9a1a2.chunk.js.map": "/coffee-shop/static/js/2.88d9a1a2.chunk.js.map",
-    "static/js/3.819fcc0b.chunk.js": "/coffee-shop/static/js/3.819fcc0b.chunk.js",
-    "static/js/3.819fcc0b.chunk.js.map": "/coffee-shop/static/js/3.819fcc0b.chunk.js.map",
+    "static/js/2.136c7507.chunk.js": "/coffee-shop/static/js/2.136c7507.chunk.js",
+    "static/js/2.136c7507.chunk.js.map": "/coffee-shop/static/js/2.136c7507.chunk.js.map",
+    "static/js/3.80ab42f3.chunk.js": "/coffee-shop/static/js/3.80ab42f3.chunk.js",
+    "static/js/3.80ab42f3.chunk.js.map": "/coffee-shop/static/js/3.80ab42f3.chunk.js.map",
     "index.html": "/coffee-shop/index.html",
     "static/css/2.5d0bae80.chunk.css.map": "/coffee-shop/static/css/2.5d0bae80.chunk.css.map",
-    "static/css/main.dd2978a8.chunk.css.map": "/coffee-shop/static/css/main.dd2978a8.chunk.css.map",
-    "static/js/2.88d9a1a2.chunk.js.LICENSE.txt": "/coffee-shop/static/js/2.88d9a1a2.chunk.js.LICENSE.txt"
+    "static/css/main.1891fab0.chunk.css.map": "/coffee-shop/static/css/main.1891fab0.chunk.css.map",
+    "static/js/2.136c7507.chunk.js.LICENSE.txt": "/coffee-shop/static/js/2.136c7507.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/js/runtime-main.072d5313.js",
+    "static/js/runtime-main.92088083.js",
     "static/css/2.5d0bae80.chunk.css",
-    "static/js/2.88d9a1a2.chunk.js",
-    "static/css/main.dd2978a8.chunk.css",
-    "static/js/main.1ba61406.chunk.js"
+    "static/js/2.136c7507.chunk.js",
+    "static/css/main.1891fab0.chunk.css",
+    "static/js/main.237ce4ec.chunk.js"
   ]
 }
