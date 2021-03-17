@@ -36,6 +36,16 @@
 
         animation: fadeIn;
         animation-duration: 1.4s;
+
+        img {
+            position: relative;
+            left: -6px;
+        }
+
+        @media screen and (max-width: 480px) {
+            height: 360px;
+            width: 365px;
+        }
     }
 
 
