@@ -13,11 +13,9 @@ function AppNavbar() {
     const showNavBar = () => {
 
         if (window.pageYOffset < 55) {
-            setShowHide(false);
             setSticky(false);
         } else if (window.pageYOffset > 55) {
             setSticky(true);
-            setShowHide(false);
         }
 
     };
@@ -29,7 +27,7 @@ function AppNavbar() {
     window.addEventListener('scroll', showNavBar);
 
     return (
-        <nav className={stickyNavBar ? "flex navMenu sticky" : showHidenNavbar ? "flex navMenu hidden" : "flex navMenu"} id="navbar">
+        <nav className={stickyNavBar ? "flex navMenu sticky" : "flex navMenu"} id="navbar">
             <div className="logo">
                 <img src="logo.png"></img>
             </div>
