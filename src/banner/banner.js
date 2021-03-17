@@ -5,7 +5,7 @@ import { FacebookOutlined, TwitterOutlined, InstagramOutlined } from '@ant-desig
 
 function AppBanner() {
     return (
-            <div class="banner flex">
+            <section class="banner flex">
 
                 <div className="banner-container">
                     <div className="banner-backdrop"/>
@@ -22,7 +22,7 @@ function AppBanner() {
                         <a href="https://www.instagram.com/indiecoffeeroasters/" target="_blank" rel="noreferrer" className="social-link"><InstagramOutlined /></a>
                     </div>
                 </div>           
-            </div>
+            </section>
     )
 }
 

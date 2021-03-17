@@ -39,12 +39,12 @@ function AppNavbar() {
             </div>
             <div className={navBarMobile ? 'menuItems-link-wrapper active' : 'menuItems-link-wrapper'}>
 
-                <Link className="menu-link" to="Shop" smooth={true} duraction={1000} spy={true} activeClass="active">shop</Link>
-                <Link className="menu-link" to="Wholesale" smooth={true} duraction={1000} spy={true} activeClass="active">wholesale</Link>
-                <Link className="menu-link" to="About" smooth={true} duraction={1000} spy={true} activeClass="active">about</Link>
-                <Link className="menu-link" to="Visit" smooth={true} duraction={1000} spy={true} activeClass="active">visit</Link>
-                <Link className="menu-link" to="Education" smooth={true} duraction={1000} spy={true} activeClass="active">education</Link>
-                <Link className="menu-link" to="Blog" smooth={true} duraction={1000} spy={true} activeClass="active">blog</Link>
+                <Link className="menu-link" to="shop" smooth={true} duraction={1000} spy={true} activeClass="active">shop</Link>
+                <Link className="menu-link" to="wholesale" smooth={true} duraction={1000} spy={true} activeClass="active">wholesale</Link>
+                <Link className="menu-link" to="about" smooth={true} duraction={1000} spy={true} activeClass="active">about</Link>
+                <Link className="menu-link" to="visit" smooth={true} duraction={1000} spy={true} activeClass="active">visit</Link>
+                <Link className="menu-link" to="education" smooth={true} duraction={1000} spy={true} activeClass="active">education</Link>
+                <Link className="menu-link" to="blog" smooth={true} duraction={1000} spy={true} activeClass="active">blog</Link>
             </div>
         </nav>
     )
