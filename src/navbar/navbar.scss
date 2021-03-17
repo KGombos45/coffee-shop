@@ -13,7 +13,11 @@
         visibility: hidden;
     }
 
-    &.sticky {        
+    &.sticky {
+        position: sticky;
+        top: 0px;
+        width: 100%;
+        
         animation: slideInDown; 
         animation-duration: .6s; 
     }

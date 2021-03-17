@@ -14,7 +14,7 @@ function AppNavbar() {
 
         if (window.pageYOffset < 55) {
             setSticky(false);
-        } else if (window.pageYOffset > 55) {
+        } else {
             setSticky(true);
         }
 
