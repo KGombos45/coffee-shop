@@ -1,6 +1,6 @@
 .navMenu {
     top: 0px;
-    position: absolute;
+    position: sticky;
     background: var(--white);
     border-bottom: solid var(--green) 3px;
     height: 50px;
@@ -13,11 +13,7 @@
         visibility: hidden;
     }
 
-    &.sticky {
-        position: sticky;
-        top: 0px;
-        width: 100%;
-        
+    &.sticky {        
         animation: slideInDown; 
         animation-duration: .6s; 
     }
