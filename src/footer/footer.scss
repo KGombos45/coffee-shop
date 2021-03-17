@@ -1,0 +1,17 @@
+footer {
+    background: var(--black);
+    position: relative;
+    border-top: 2px var(--green) solid;
+    height: 60px;
+
+    .footnote-wrapper {
+        margin-top: 25px;
+        width: 100%;
+    }
+
+    .footnote-text {
+        color: gray;
+        text-align: center;
+        font-size: 12px;
+    }
+}

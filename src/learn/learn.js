@@ -1,34 +1,32 @@
-import React from 'react'
-import './wholesale.scss';
+import React from 'react';
+import './learn.scss';
 import ScrollAnimation from 'react-animate-on-scroll';
 
-function AppWholeSale() {
+function AppLearn() {
     return (
-
-        <section className="wholesale" id="wholesale">
+        <section className="learn" id="learn">
             <div className="body-container flex">
                 <ScrollAnimation animateIn='fadeIn' initiallyVisible={false} animateOnce={true} duration={1.4}>
                 <div className="section-title">
-                    WHOLESALE
+                    LEARN
                 </div>
-                    <div className="wholesale-container flex row">
-                        <div className="flex section-partner">
+                    <div className="learn-container flex row">
+                        <div className="flex section-learn">
                             <div className="section-sub-header">
-                                    Become a Partner
+                                Caffeinated Content
                                 <div className="section-title-underline sub-header-underline" />
                             </div>
-                            <div className="wholesale-text">
-                                Need -a lot- of coffee? We work closely with multiple organizations to provide a great coffee experience for companies and customers at wholesale prices. We’d love to help you do the same.                        
+                            <div className="learn-text">
+                                Want to know more about where our coffee is grown and how it’s prepared? Become a coffee expert by sipping our blogs.
                             </div>
-
                         </div>
-                        <div className="flex section-wholesale-img">
+                        <div className="flex section-learn-img">
                             <div className="image-container">
-                                <img src="wholesale-group.svg"></img>
+                                <img src="learn.svg"></img>
                                 <div className="button-container">
                             <a>
                                 <button type="primary" className="shop-btn">
-                                    LEARN MORE
+                                    READ MORE
                                 </button>
                             </a>
                             </div>
@@ -38,9 +36,8 @@ function AppWholeSale() {
                 </ScrollAnimation>    
             </div>
         </section>
-            
-
     )
 }
 
-export default AppWholeSale
+export default AppLearn
+

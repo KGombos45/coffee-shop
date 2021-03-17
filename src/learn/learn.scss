@@ -1,0 +1,126 @@
+.learn {
+    height: auto;
+    width: 100%;
+    display: block;
+    padding: 100px 0 100px 0;
+    background: var(--slate);
+}
+
+.section-title {
+    font-size: 150px;
+    font-weight: bold;
+    letter-spacing: 5px;
+    color: var(--lightGreen);
+    margin-bottom: -130px;
+    text-align: center;
+
+    @media screen and (max-width: 600px) {
+        font-size: 65px;
+        margin-bottom: -40px;
+    }
+}
+
+
+
+.learn-container {
+    width: 100%;
+    align-items: flex-start;
+    padding: 50px 0 50px 0;
+
+    @media screen and (max-width: 960px) {
+        flex-direction: column-reverse;
+        align-items: center;
+
+        .section-learn {
+            max-width: 100% !important;
+            padding: 0 40px !important;
+        }
+
+        .section-learn-img {
+            width: auto !important;
+        }
+    }
+
+    .section-learn-img {
+        margin-top: 15px;
+    }
+
+    .section-learn, .section-learn-img {
+        display: flex;
+        flex: 1 1 50%;
+        margin: 0 50px 0 50px;
+        max-width: 50%;
+        height: auto;
+        text-align: left;
+        box-sizing: border-box;
+        position: relative;
+        color: var(--white);
+    
+        .learn-text {
+            font-size: 20px;
+            line-height: 1.4em;
+        }
+    
+        .section-sub-header {
+            font-size: 48px;
+            font-weight: bold;
+            margin: 20px 0 20px 0;
+            color: var(--white);        
+        }
+
+        .button-container {
+            width: 100%;
+            position: absolute;
+            margin-top: 70px;
+            text-align: left;
+            z-index: 99;
+
+            @media screen and (max-width: 600px) {
+                right: 50px;
+                margin-top: 60px;
+            }
+
+            .shop-btn {
+                height: 70px;
+                width: 250px;
+                background: transparent;
+                border: none;
+                letter-spacing: 3px;
+                color: var(--green);
+                z-index: 99;
+                font-size: 24px;
+                border: 1px var(--green) solid;
+                transition: all 0.5s ease-in-out;
+                cursor: pointer;
+
+                &:hover {
+                    background: var(--green);
+                    color: var(--white);
+                }
+
+                &::before {
+                    content: "";
+                    height: 1px;
+                    width: calc(100% + 34%);
+                    background-color: var(--green);
+                    position: absolute;
+                    top: 50%;
+                    right: -430px;
+                }
+            }
+        }
+
+        .image-container {
+            width: 650px;
+
+            @media screen and (max-width: 600px) {
+                width: 400px;
+            }
+
+            img {
+                filter: invert(1);
+            }
+        }
+    }
+}
+

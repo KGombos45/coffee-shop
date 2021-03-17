@@ -42,8 +42,10 @@ function AppNavbar() {
                 <Link className="menu-link" to="shop" smooth={true} duraction={1000} spy={true} activeClass="active">shop</Link>
                 <Link className="menu-link" to="wholesale" smooth={true} duraction={1000} spy={true} activeClass="active">wholesale</Link>
                 <Link className="menu-link" to="about" smooth={true} duraction={1000} spy={true} activeClass="active">about</Link>
+                <Link className="menu-link" to="learn" smooth={true} duraction={1000} spy={true} activeClass="active">learn</Link>
                 <Link className="menu-link" to="visit" smooth={true} duraction={1000} spy={true} activeClass="active">visit</Link>
-                <Link className="menu-link" to="education" smooth={true} duraction={1000} spy={true} activeClass="active">education</Link>
+                <Link className="menu-link" to="subscribe" smooth={true} duraction={1000} spy={true} activeClass="active">subscribe</Link>
+                <Link className="menu-link" to="contact" smooth={true} duraction={1000} spy={true} activeClass="active">contact</Link>
                 <Link className="menu-link" to="blog" smooth={true} duraction={1000} spy={true} activeClass="active">blog</Link>
             </div>
         </nav>

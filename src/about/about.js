@@ -56,12 +56,12 @@ function AppAbout() {
                             This whole business started with a batch of coffee in a Whirlypop popcorn machine. Shocked? So are we. But, we wouldn’t have it any other way.
 
                             <div className="button-container">
-                            <a>
-                                <button type="primary" className="shop-btn">
-                                    LEARN MORE
-                                </button>
-                            </a>
-                        </div>
+                                <a>
+                                    <button type="primary" className="shop-btn">
+                                        LEARN MORE
+                                    </button>
+                                </a>
+                            </div>
                         </div>
                     </div>
                     
