@@ -12,10 +12,10 @@ function AppNavbar() {
 
     const showNavBar = () => {
 
-        if (window.pageYOffset <= 54) {
+        if (window.pageYOffset < 55) {
             setShowHide(false);
             setSticky(false);
-        } else if (window.pageYOffset >= 55) {
+        } else if (window.pageYOffset > 55) {
             setSticky(true);
             setShowHide(false);
         }
