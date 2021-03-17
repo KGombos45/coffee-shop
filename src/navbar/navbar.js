@@ -12,7 +12,7 @@ function AppNavbar() {
 
     const showNavBar = () => {
 
-        if (window.scrollY > 1 && window.scrollY <= 55) {
+        if (window.scrollY <= 54) {
             setShowHide(false);
             setSticky(false);
         } else if (window.scrollY >= 55) {
