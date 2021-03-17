@@ -1,19 +1,10 @@
 .about {
-    height: auto;
-    width: 100vw;
-    display: block;
     padding: 100px 0 150px 0;
 
     .section-title {
-        font-size: 150px;
-        font-weight: bold;
-        letter-spacing: 5px;
-        color: var(--lightGreen);
         margin-bottom: -130px;
-        text-align: center;
     
         @media screen and (max-width: 600px) {
-            font-size: 65px;
             margin-bottom: -40px;
         }
     }

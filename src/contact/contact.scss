@@ -9,8 +9,6 @@
 }
 
 .contact-container {
-    width: 100%;
-    align-items: flex-start;
     padding: 100px 0 100px 0;
     color: var(--white);
 
@@ -104,9 +102,3 @@
     }
 
 }
-
-.sub-header-underline {
-    width: 350px !important;
-    justify-content: flex-start !important;
-    margin: 5px 0 0 0 !important;
-} 

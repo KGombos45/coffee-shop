@@ -1,21 +1,12 @@
 .learn {
-    height: auto;
-    width: 100%;
-    display: block;
     padding: 100px 0 100px 0;
     background: var(--slate);
 }
 
 .section-title {
-    font-size: 150px;
-    font-weight: bold;
-    letter-spacing: 5px;
-    color: var(--lightGreen);
     margin-bottom: -130px;
-    text-align: center;
 
     @media screen and (max-width: 600px) {
-        font-size: 65px;
         margin-bottom: -40px;
     }
 }
@@ -23,8 +14,6 @@
 
 
 .learn-container {
-    width: 100%;
-    align-items: flex-start;
     padding: 50px 0 50px 0;
 
     @media screen and (max-width: 960px) {
@@ -46,14 +35,6 @@
     }
 
     .section-learn, .section-learn-img {
-        display: flex;
-        flex: 1 1 50%;
-        margin: 0 50px 0 50px;
-        max-width: 50%;
-        height: auto;
-        text-align: left;
-        box-sizing: border-box;
-        position: relative;
         color: var(--white);
     
         .learn-text {

@@ -32,6 +32,24 @@ body {
   margin: 0 auto;
 }
 
+.shop, .wholesale, .about, .learn, .visit, .subscribe {
+  height: auto;
+  width: 100%;
+  display: block;
+}
+
+.section-title {
+  font-size: 150px;
+  font-weight: bold;
+  letter-spacing: 5px;
+  color: var(--lightGreen);
+  text-align: center;
+
+  @media screen and (max-width: 600px) {
+      font-size: 65px;
+  }
+}
+
 .section-title-underline {
   height: 5px;
   width: 65px;
@@ -40,15 +58,33 @@ body {
 
   &.sub-header-underline {
     height: 3px;
-    width: 55px;
     background: var(--green);
     border-radius: 10px;
-    justify-content: center;
-    margin: 0 auto;
-    margin-top: 5px;
+    width: 350px;
+    justify-content: flex-start;
+    margin: 5px 0 0 0;
   }
 }
 
+.shop-container, .wholesale-container, .learn-container, .visit-container, .subscribe-container {
+  width: 100%;
+  align-items: flex-start;
+}
+
+.section-shop, .section-shop-img,
+.section-partner, .section-wholesale-img,
+.section-learn, .section-learn-img,
+.section-visit, .section-visit-img,
+.section-subscribe, .section-subscribe-form {
+  display: flex;
+  flex: 1 1 50%;
+  margin: 0 50px 0 50px;
+  max-width: 50%;
+  height: auto;
+  text-align: left;
+  box-sizing: border-box;
+  position: relative;
+}
 
 
 .button-container {
