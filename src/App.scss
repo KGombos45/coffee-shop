@@ -32,7 +32,16 @@ body {
   margin: 0 auto;
 }
 
-.shop, .wholesale, .about, .learn, .visit, .subscribe {
+.animated {
+  width: 100%;
+}
+
+.shop,
+.wholesale,
+.about,
+.learn,
+.visit,
+.subscribe {
   height: auto;
   width: 100%;
   display: block;
@@ -46,7 +55,7 @@ body {
   text-align: center;
 
   @media screen and (max-width: 600px) {
-      font-size: 65px;
+    font-size: 65px;
   }
 }
 
@@ -63,19 +72,32 @@ body {
     width: 350px;
     justify-content: flex-start;
     margin: 5px 0 0 0;
+
+    @media screen and (min-width: 250px) and (max-width: 375px) {
+      width: 280px
+    }
   }
 }
 
-.shop-container, .wholesale-container, .learn-container, .visit-container, .subscribe-container {
+.shop-container,
+.wholesale-container,
+.learn-container,
+.visit-container,
+.subscribe-container {
   width: 100%;
   align-items: flex-start;
 }
 
-.section-shop, .section-shop-img,
-.section-partner, .section-wholesale-img,
-.section-learn, .section-learn-img,
-.section-visit, .section-visit-img,
-.section-subscribe, .section-subscribe-form {
+.section-shop,
+.section-shop-img,
+.section-partner,
+.section-wholesale-img,
+.section-learn,
+.section-learn-img,
+.section-visit,
+.section-visit-img,
+.section-subscribe,
+.section-subscribe-form {
   display: flex;
   flex: 1 1 50%;
   margin: 0 50px 0 50px;
@@ -85,7 +107,6 @@ body {
   box-sizing: border-box;
   position: relative;
 }
-
 
 .button-container {
   width: 100%;
@@ -103,24 +124,23 @@ body {
     border: 1px var(--green) solid;
     transition: all 0.5s ease-in-out;
     cursor: pointer;
-  
+
     &:hover {
       background: var(--green);
       color: var(--white);
     }
-  
+
     &::before {
       content: "";
       height: 1px;
       background-color: var(--green);
       position: absolute;
       top: 50%;
-  }
-  
+    }
+
     @media screen and (max-width: 600px) {
       font-size: 16px !important;
       height: 60px !important;
     }
   }
-
 }

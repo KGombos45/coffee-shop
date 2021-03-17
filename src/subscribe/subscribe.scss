@@ -49,6 +49,7 @@
         .input-container {
             height: 175px;
             margin-top: 110px;
+            width: 100%;
 
             @media screen and (max-width: 600px) {
                 margin-top: -60px;
@@ -69,6 +70,7 @@
                 border-top: none;
                 border-left: none;
                 border-right: none;
+                width: 100%;
             }
         }
 

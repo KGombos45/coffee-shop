@@ -7,8 +7,13 @@
     margin-bottom: -130px;
     text-align: center;
 
-    @media screen and (max-width: 600px) {
-        font-size: 65px;
+    @media screen and (min-width: 375px) and (max-width: 480px) {
+        font-size: 45px;
+        margin-bottom: -40px;
+    }
+
+    @media screen and (min-width: 480px) and (max-width: 600px) {
+        font-size: 55px;
         margin-bottom: -40px;
     }
 }
@@ -26,7 +31,7 @@
         }
 
         .section-wholesale-img {
-            width: auto !important;
+            max-width: 100% !important;
         }
     }
 
@@ -81,11 +86,13 @@
             width: 650px;
 
             @media screen and (max-width: 600px) {
-                width: 400px;
+                width: 100%;
+                text-align: center;
             }
 
             img {
                 filter: invert(1);
+                width: 80%;
             }
         }
     }
