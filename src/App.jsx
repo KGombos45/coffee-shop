@@ -20,7 +20,7 @@ function App() {
       <NavbarSection />
       <ScrollToTop/>
         <Switch>
-          <Route exact path="/">
+          <Route exact path="">
             <Home />
           </Route>
           <Route path="/wholesale">
