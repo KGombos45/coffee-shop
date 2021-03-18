@@ -25,7 +25,7 @@ function AboutMid() {
     ];
 
     return (
-        <section className="about" id="about">
+        <section className="about-mid" id="about">
             <div className="body-container flex">
                 <div className="about-container flex">
                     <ScrollAnimation animateIn='fadeIn' initiallyVisible={false} animateOnce={true} duration={1.4}>

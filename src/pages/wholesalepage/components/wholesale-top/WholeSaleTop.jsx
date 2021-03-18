@@ -19,8 +19,8 @@ function WholeSaleTop() {
                             <div className="section-title-underline sub-header-underline" />
                         </div>
                         <div className="wholesale-text">
-                            We’re about two things here: dog puns and amazing cups of coffee. But, we’ll quit hounding you with the puns because you must be wondering how to provide your company and customers with an excellent coffee experience in an economical way.
-                            Wholesale coffee with Indie Coffee Roasters means the best coffee, at a great price, with a personal touch from our team to ensure that you can easily provide great coffee to your customers or companies.
+                            <p>We’re about two things here: dog puns and amazing cups of coffee. But, we’ll quit hounding you with the puns because you must be wondering how to provide your company and customers with an excellent coffee experience in an economical way.</p>
+                            <p>Wholesale coffee with Indie Coffee Roasters means the best coffee, at a great price, with a personal touch from our team to ensure that you can easily provide great coffee to your customers or companies.</p>
                         </div>
                     </div>
                     <div className="flex section-right">

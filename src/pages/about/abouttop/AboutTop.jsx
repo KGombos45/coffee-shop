@@ -18,9 +18,9 @@ function AboutTop() {
                             <div className="section-title-underline sub-header-underline" />
                         </div>
                         <div className="about-text">
-                        How does one roast coffee in a popcorn machine? Very carefully.
-                        However, if you do it carefully enough, you might just end up making something delicious. This mad scientist method of coffee roasting is where Indie Coffee Roasters began in 2013. The rest, as they say, was coffee.
-                        From there, they moved on from the Whirlypop machine and began roasting small batches of coffee that became a hot commodity. “Are you guys roasting anytime soon?”
+                        <p>How does one roast coffee in a popcorn machine? Very carefully.</p>
+                        <p>However, if you do it carefully enough, you might just end up making something delicious. This mad scientist method of coffee roasting is where Indie Coffee Roasters began in 2013. The rest, as they say, was coffee.</p>
+                        <p>From there, they moved on from the Whirlypop machine and began roasting small batches of coffee that became a hot commodity. “Are you guys roasting anytime soon?”</p>
                         </div>
                     </div>
                     <div className="flex section-right">
