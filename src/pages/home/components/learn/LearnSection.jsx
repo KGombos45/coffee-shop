@@ -1,9 +1,9 @@
 import React from 'react';
 import './learn.scss';
 import ScrollAnimation from 'react-animate-on-scroll';
-import learn from '../assets/img/learn.svg';
+import learn from '../../assets/img/learn.svg';
 
-function AppLearn() {
+function LearnSection() {
     return (
         <section className="learn" id="learn">
             <div className="body-container flex">
@@ -12,7 +12,7 @@ function AppLearn() {
                     LEARN
                 </div>
                     <div className="learn-container flex row">
-                        <div className="flex section-learn">
+                        <div className="flex section-left">
                             <div className="section-sub-header">
                                 Caffeinated Content
                                 <div className="section-title-underline sub-header-underline" />
@@ -21,7 +21,7 @@ function AppLearn() {
                                 Want to know more about where our coffee is grown and how it’s prepared? Become a coffee expert by sipping our blogs.
                             </div>
                         </div>
-                        <div className="flex section-learn-img">
+                        <div className="flex section-right">
                             <div className="image-container">
                                 <img src={learn}></img>
                             <ScrollAnimation animateIn='slideInRight' initiallyVisible={false} animateOnce={true} duration={1.4}>
@@ -42,5 +42,5 @@ function AppLearn() {
     )
 }
 
-export default AppLearn
+export default LearnSection
 

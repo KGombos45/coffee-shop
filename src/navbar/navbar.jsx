@@ -5,7 +5,7 @@ import { Link } from 'react-scroll';
 import { MenuOutlined, CloseOutlined } from '@ant-design/icons';
 import logo from '../assets/img/logo.png';
 
-function AppNavbar() {
+function NavbarSection() {
 
     const [navBarMobile, setMobile] = useState(false);
     const [showHidenNavbar, setShowHide] = useState(false);
@@ -51,4 +51,4 @@ function AppNavbar() {
     )
 }
 
-export default AppNavbar;
+export default NavbarSection;

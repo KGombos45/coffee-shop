@@ -11,19 +11,19 @@
         flex-direction: column;
         align-items: center;
 
-        .section-subscribe {
+        .section-left {
             max-width: 100% !important;
             padding: 0 40px !important;
             margin-top: 20px;
         }
 
-        .section-subscribe-form {
+        .section-right {
             width: auto !important;
             max-width: 100% !important;
         }
     }
 
-    .section-subscribe, .section-subscribe-form {
+    .section-left, .section-right {
         display: block;
 
         .subscribe-text {

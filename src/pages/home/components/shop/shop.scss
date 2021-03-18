@@ -4,38 +4,37 @@
     @media screen and (max-width: 600px) {
         padding: 0 0 100px 0;
     }
-
 }
 
 .shop-container {
     padding: 50px 0 50px 0;
 
-    
     @media screen and (min-width: 1000px) and (max-width: 1300px) {
         .section-shop {
             margin-left: 120px;
         }
-    }    
+    }
 
     @media screen and (max-width: 1000px) {
         flex-direction: column;
         align-items: center;
 
-        .section-shop {
+        .section-left {
             max-width: 100% !important;
             padding: 0 40px !important;
         }
 
-        .section-shop-img {
+        .section-right {
             display: none !important;
         }
     }
 
-    .section-shop-img {
+    .section-right {
         z-index: -5;
     }
 
-    .section-shop, .section-shop-img {
+    .section-left,
+    .section-right {
         display: block;
 
         .shop-text {
@@ -48,7 +47,7 @@
             font-size: 48px;
             font-weight: bold;
             margin: 20px 0 20px 0;
-            color: var(--black);        
+            color: var(--black);
         }
 
         .button-container {
@@ -58,7 +57,7 @@
 
             @media screen and (max-width: 600px) {
                 right: 0px;
-                margin-top: 89px;            
+                margin-top: 89px;
             }
 
             @media screen and (min-width: 600px) and (max-width: 1000px) {
@@ -78,18 +77,16 @@
                     width: calc(100% + 64%);
                     left: -535px;
 
-
                     @media screen and (max-width: 600px) {
                         left: -100px;
                         width: calc(100% - 10%);
                     }
 
-                    
                     @media screen and (min-width: 600px) and (max-width: 1000px) {
                         left: -395px;
                         width: calc(100% + 42%);
                     }
-                    
+
                     @media screen and (min-width: 1000px) and (max-width: 1300px) {
                         left: -295px;
                         width: calc(100% + 20%);
@@ -138,8 +135,6 @@
             width: 450px;
             height: 450px;
             background: #0000003d;
-
-          }
+        }
     }
-
 }

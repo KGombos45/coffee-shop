@@ -1,7 +1,7 @@
 import React from 'react';
 import './footer.scss';
 
-function AppFooter() {
+function FooterSection() {
     return (
         <footer>
 
@@ -21,4 +21,4 @@ function AppFooter() {
     )
 }
 
-export default AppFooter
+export default FooterSection

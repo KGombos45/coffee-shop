@@ -1,9 +1,10 @@
 import React from 'react'
 import './wholesale.scss';
+import { Link } from 'react-router-dom';
 import ScrollAnimation from 'react-animate-on-scroll';
-import wholeSaleGroup from '../assets/img/wholesale-group.svg';
+import wholeSaleGroup from '../../assets/img/wholesale-group.svg';
 
-function AppWholeSale() {
+function WholesaleSection() {
     return (
 
         <section className="wholesale" id="wholesale">
@@ -23,16 +24,16 @@ function AppWholeSale() {
                             </div>
 
                         </div>
-                        <div className="flex section-wholesale-img">
+                        <div className="flex section-right">
                             <div className="image-container">
                                 <img src={wholeSaleGroup}></img>
                             <ScrollAnimation animateIn='slideInRight' initiallyVisible={false} animateOnce={true} duration={1.4}>
                             <div className="button-container">
-                            <a>
+                            <Link to="/wholesale">
                                 <button type="primary" className="indie-btn">
                                     LEARN MORE
                                 </button>
-                            </a>
+                            </Link>
                             </div>
                             </ScrollAnimation>
                             </div>
@@ -46,4 +47,4 @@ function AppWholeSale() {
     )
 }
 
-export default AppWholeSale
+export default WholesaleSection

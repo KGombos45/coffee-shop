@@ -6,7 +6,7 @@
     padding: 50px 0 50px 0;
 
     @media screen and (min-width: 1000px) and (max-width: 1300px) {
-        .section-visit {
+        .section-left {
             margin-left: 120px !important;
         }
     }
@@ -16,21 +16,21 @@
         align-items: center;
         display: flex;
 
-        .section-visit {
+        .section-left {
             max-width: 100% !important;
             padding: 0 40px !important;
         }
 
-        .section-visit-img {
+        .section-right {
             max-width: 100% !important;
         }
     }
 
-    .section-visit-img {
+    .section-right {
         z-index: -5;
     }
 
-    .section-visit, .section-visit-img {
+    .section-left, .section-right {
         display: block;
 
         .visit-text {

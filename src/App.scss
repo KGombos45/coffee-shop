@@ -93,16 +93,8 @@ body {
   align-items: flex-start;
 }
 
-.section-shop,
-.section-shop-img,
-.section-partner,
-.section-wholesale-img,
-.section-learn,
-.section-learn-img,
-.section-visit,
-.section-visit-img,
-.section-subscribe,
-.section-subscribe-form {
+.section-left,
+.section-right {
   display: flex;
   flex: 1 1 50%;
   margin: 0 50px 0 50px;

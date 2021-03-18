@@ -1,17 +1,17 @@
 import React from 'react';
 import './shop.scss';
 import ScrollAnimation from 'react-animate-on-scroll';
-import coffeeBeans from '../assets/img/coffeebeans.svg';
-import shop from '../assets/img/shop.jpg';
+import coffeeBeans from '../../assets/img/coffeebeans.svg';
+import shop from '../../assets/img/shop.jpg';
 
 
-function AppShop() {
+function ShopSection() {
     return (
         <section className="shop" id="shop">
             <div className="body-container flex">
             <ScrollAnimation animateIn='fadeIn' initiallyVisible={false} animateOnce={true} duration={1.4}>
                 <div className="shop-container flex row">
-                    <div className="flex section-shop">
+                    <div className="flex section-left">
                         <div className="section-sub-header">
                                 Coffee, unleashed.
                             <div className="section-title-underline sub-header-underline" />
@@ -35,7 +35,7 @@ function AppShop() {
                             SHOP
                         </div>
                     </div>
-                    <div className="flex section-shop-img">
+                    <div className="flex section-right">
                         <div className="image-container">
                             <img src={shop}></img>
                         </div>
@@ -47,4 +47,4 @@ function AppShop() {
     )
 }
 
-export default AppShop
+export default ShopSection

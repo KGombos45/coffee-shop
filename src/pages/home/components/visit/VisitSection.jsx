@@ -1,15 +1,15 @@
 import React from 'react';
 import './visit.scss';
 import ScrollAnimation from 'react-animate-on-scroll';
-import outsideIndie from '../assets/img/outsideindie.jpg';
+import outsideIndie from '../../assets/img/outsideindie.jpg';
 
-function AppVisit() {
+function VisitSection() {
     return (
         <section className="visit" id="visit">
             <div className="body-container flex">
                 <ScrollAnimation animateIn='fadeIn' initiallyVisible={false} animateOnce={true} duration={1.4}>
                     <div className="visit-container flex row">
-                        <div className="flex section-visit">
+                        <div className="flex section-left">
                             <div className="section-sub-header">
                                 Come and See Us
                             <div className="section-title-underline sub-header-underline" />
@@ -30,7 +30,7 @@ function AppVisit() {
                                 VISIT
                         </div>
                         </div>
-                        <div className="flex section-visit-img">
+                        <div className="flex section-right">
                             <div className="image-container">
                                 <img src={outsideIndie}></img>
                             </div>
@@ -42,4 +42,4 @@ function AppVisit() {
     )
 }
 
-export default AppVisit
+export default VisitSection

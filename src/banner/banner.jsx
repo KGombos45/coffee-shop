@@ -6,7 +6,7 @@ import verticalLogo from '../assets/img/verticallogo.svg';
 import { FacebookOutlined, TwitterOutlined, InstagramOutlined } from '@ant-design/icons';
 
 
-function AppBanner() {
+function BannerSection() {
     return (
             <section class="banner flex">
 
@@ -29,4 +29,4 @@ function AppBanner() {
     )
 }
 
-export default AppBanner
+export default BannerSection
