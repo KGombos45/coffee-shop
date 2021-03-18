@@ -1,7 +1,7 @@
 import React from 'react';
 import './navbar.scss';
 import { useState } from 'react';
-import { Link } from 'react-scroll';
+import { Link } from 'react-router-dom';
 import { MenuOutlined, CloseOutlined } from '@ant-design/icons';
 import logo from '../assets/img/logo.png';
 
@@ -29,18 +29,22 @@ function NavbarSection() {
 
     return (
         <nav className={stickyNavBar ? "flex navMenu sticky" : "flex navMenu"} id="navbar">
-            <div className="logo">
-                <img src={logo}></img>
-            </div>
+            
+            <Link to="/">
+                <div className="logo">
+                    <img src={logo}></img>
+                </div>
+            </Link>
+ 
             <div className="hamburger-icon-container" onClick={handleClick}>
                 {!navBarMobile ? <MenuOutlined /> : null}
                 {navBarMobile ? <CloseOutlined /> : null}
             </div>
             <div className={navBarMobile ? 'menuItems-link-wrapper active' : 'menuItems-link-wrapper'}>
 
-                <Link className="menu-link" to="shop" smooth={true} duraction={1000} spy={true} activeClass="active">shop</Link>
-                <Link className="menu-link" to="wholesale" smooth={true} duraction={1000} spy={true} activeClass="active">wholesale</Link>
-                <Link className="menu-link" to="about" smooth={true} duraction={1000} spy={true} activeClass="active">about</Link>
+                <a className="menu-link" href="https://indie-coffee-roasters.square.site/" target="_blank">shop</a>
+                <Link className="menu-link" to="/wholesale">wholesale</Link>
+                <Link className="menu-link" to="/about">about</Link>
                 <Link className="menu-link" to="learn" smooth={true} duraction={1000} spy={true} activeClass="active">learn</Link>
                 <Link className="menu-link" to="visit" smooth={true} duraction={1000} spy={true} activeClass="active">visit</Link>
                 <Link className="menu-link" to="subscribe" smooth={true} duraction={1000} spy={true} activeClass="active">subscribe</Link>

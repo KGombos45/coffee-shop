@@ -44,6 +44,10 @@
         text-align: left;
         max-width: 1200px;
 
+        a {
+            text-decoration: none;
+        }
+
         .menu-link {
             display: inline;
             color: var(--black);
