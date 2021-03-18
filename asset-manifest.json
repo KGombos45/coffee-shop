@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/coffee-shop/static/css/main.d748ffbe.chunk.css",
-    "main.js": "/coffee-shop/static/js/main.f623f804.chunk.js",
-    "main.js.map": "/coffee-shop/static/js/main.f623f804.chunk.js.map",
+    "main.css": "/coffee-shop/static/css/main.d517c567.chunk.css",
+    "main.js": "/coffee-shop/static/js/main.0a2dab04.chunk.js",
+    "main.js.map": "/coffee-shop/static/js/main.0a2dab04.chunk.js.map",
     "runtime-main.js": "/coffee-shop/static/js/runtime-main.29970ff8.js",
     "runtime-main.js.map": "/coffee-shop/static/js/runtime-main.29970ff8.js.map",
     "static/css/2.5d0bae80.chunk.css": "/coffee-shop/static/css/2.5d0bae80.chunk.css",
-    "static/js/2.6d04d7f9.chunk.js": "/coffee-shop/static/js/2.6d04d7f9.chunk.js",
-    "static/js/2.6d04d7f9.chunk.js.map": "/coffee-shop/static/js/2.6d04d7f9.chunk.js.map",
+    "static/js/2.d9b1ca9c.chunk.js": "/coffee-shop/static/js/2.d9b1ca9c.chunk.js",
+    "static/js/2.d9b1ca9c.chunk.js.map": "/coffee-shop/static/js/2.d9b1ca9c.chunk.js.map",
     "index.html": "/coffee-shop/index.html",
     "static/css/2.5d0bae80.chunk.css.map": "/coffee-shop/static/css/2.5d0bae80.chunk.css.map",
-    "static/css/main.d748ffbe.chunk.css.map": "/coffee-shop/static/css/main.d748ffbe.chunk.css.map",
-    "static/js/2.6d04d7f9.chunk.js.LICENSE.txt": "/coffee-shop/static/js/2.6d04d7f9.chunk.js.LICENSE.txt",
+    "static/css/main.d517c567.chunk.css.map": "/coffee-shop/static/css/main.d517c567.chunk.css.map",
+    "static/js/2.d9b1ca9c.chunk.js.LICENSE.txt": "/coffee-shop/static/js/2.d9b1ca9c.chunk.js.LICENSE.txt",
     "static/media/about-coffeebags.817bea85.jpg": "/coffee-shop/static/media/about-coffeebags.817bea85.jpg",
     "static/media/about-indie.7005d84a.jpg": "/coffee-shop/static/media/about-indie.7005d84a.jpg",
     "static/media/about-oldcoffeebags.48647ab1.jpg": "/coffee-shop/static/media/about-oldcoffeebags.48647ab1.jpg",
@@ -22,6 +22,7 @@
     "static/media/learn.2735083b.svg": "/coffee-shop/static/media/learn.2735083b.svg",
     "static/media/logo.ba380faa.png": "/coffee-shop/static/media/logo.ba380faa.png",
     "static/media/outsideindie.9d007abc.jpg": "/coffee-shop/static/media/outsideindie.9d007abc.jpg",
+    "static/media/outsidesign.b397eba4.jpg": "/coffee-shop/static/media/outsidesign.b397eba4.jpg",
     "static/media/personal-service.6d2c9b4a.svg": "/coffee-shop/static/media/personal-service.6d2c9b4a.svg",
     "static/media/product-here.4edfb47d.jpg": "/coffee-shop/static/media/product-here.4edfb47d.jpg",
     "static/media/shop.8f0c0317.jpg": "/coffee-shop/static/media/shop.8f0c0317.jpg",
@@ -32,8 +33,8 @@
   "entrypoints": [
     "static/js/runtime-main.29970ff8.js",
     "static/css/2.5d0bae80.chunk.css",
-    "static/js/2.6d04d7f9.chunk.js",
-    "static/css/main.d748ffbe.chunk.css",
-    "static/js/main.f623f804.chunk.js"
+    "static/js/2.d9b1ca9c.chunk.js",
+    "static/css/main.d517c567.chunk.css",
+    "static/js/main.0a2dab04.chunk.js"
   ]
 }
