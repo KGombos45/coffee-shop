@@ -3,17 +3,17 @@
     background: var(--slate);
 }
 
-.section-title {
-    margin-bottom: -130px;
-
-    @media screen and (max-width: 600px) {
-        margin-bottom: -40px;
-    }
-}
-
-
-
 .learn-container {
+
+    .section-title {
+        margin-bottom: -130px;
+    
+        @media screen and (max-width: 600px) {
+            margin-bottom: -40px;
+        }
+    }
+
+    
     padding: 50px 0 50px 0;
 
     @media screen and (max-width: 960px) {
@@ -74,8 +74,9 @@
                 }
 
                 &::before {
-                    width: calc(100% + 34%);
-                    right: -430px;
+                    width: calc(100% + 22%);
+                    right: -370px;
+                
 
                     @media screen and (max-width: 600px) {
                         width: calc(100% - 10%);

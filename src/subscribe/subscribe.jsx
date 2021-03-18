@@ -24,6 +24,7 @@ function AppSubscribe() {
                         <div className="input-container">
                             <input type="email" placeholder="EMAIL" className="indie-input"></input>
                         </div>
+                        <ScrollAnimation animateIn='slideInRight' initiallyVisible={false} animateOnce={true} duration={1.4}>
                         <div className="button-container">
                         <a href="https://indie-coffee-roasters.square.site/" target="_blank" rel="noreferrer">
                             <button type="primary" className="indie-btn">
@@ -31,6 +32,7 @@ function AppSubscribe() {
                             </button>
                         </a>
                         </div>
+                        </ScrollAnimation>
                     </div>
                 </div>
                 </ScrollAnimation>

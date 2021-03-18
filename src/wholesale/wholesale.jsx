@@ -26,13 +26,15 @@ function AppWholeSale() {
                         <div className="flex section-wholesale-img">
                             <div className="image-container">
                                 <img src={wholeSaleGroup}></img>
-                                <div className="button-container">
+                            <ScrollAnimation animateIn='slideInRight' initiallyVisible={false} animateOnce={true} duration={1.4}>
+                            <div className="button-container">
                             <a>
                                 <button type="primary" className="indie-btn">
                                     LEARN MORE
                                 </button>
                             </a>
                             </div>
+                            </ScrollAnimation>
                             </div>
                         </div>
                     </div>

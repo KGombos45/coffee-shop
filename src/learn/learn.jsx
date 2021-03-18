@@ -24,13 +24,15 @@ function AppLearn() {
                         <div className="flex section-learn-img">
                             <div className="image-container">
                                 <img src={learn}></img>
-                                <div className="button-container">
+                            <ScrollAnimation animateIn='slideInRight' initiallyVisible={false} animateOnce={true} duration={1.4}>
+                            <div className="button-container">
                             <a>
                                 <button type="primary" className="indie-btn">
                                     READ MORE
                                 </button>
                             </a>
                             </div>
+                            </ScrollAnimation>
                             </div>
                         </div>
                     </div>

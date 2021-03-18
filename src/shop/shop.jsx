@@ -19,6 +19,7 @@ function AppShop() {
                         <div className="shop-text">
                             World-class coffee, fetched from around the world and brought straight to you. In-store or online, experience what it means to have your coffee, unleashed.
                         </div>
+                        <ScrollAnimation animateIn='slideInLeft' initiallyVisible={false} animateOnce={true} duration={1.4}>
                         <div className="button-container">
                         <a href="https://indie-coffee-roasters.square.site/" target="_blank" rel="noreferrer">
                             <button type="primary" className="indie-btn">
@@ -26,6 +27,7 @@ function AppShop() {
                             </button>
                         </a>
                         </div>
+                        </ScrollAnimation>
                         <div className="section-title">
                             <div className="coffee-beans">
                                 <img src={coffeeBeans}></img>

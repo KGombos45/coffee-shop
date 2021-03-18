@@ -5,6 +5,12 @@
 .visit-container {
     padding: 50px 0 50px 0;
 
+    @media screen and (min-width: 1000px) and (max-width: 1300px) {
+        .section-visit {
+            margin-left: 120px !important;
+        }
+    }
+
     @media screen and (max-width: 960px) {
         flex-direction: column-reverse;
         align-items: center;
@@ -20,15 +26,17 @@
         }
     }
 
+    .section-visit-img {
+        z-index: -5;
+    }
+
     .section-visit, .section-visit-img {
         display: block;
-        margin: 0;
 
         .visit-text {
             font-size: 20px;
             line-height: 1.4em;
             max-width: 450px;
-            margin-right: 115px;
         }
 
         .section-sub-header {
@@ -41,11 +49,16 @@
         .button-container {
             margin-top: 130px;
             text-align: right;
-            right: -30px;
+            right: -130px;
 
             @media screen and (max-width: 600px) {
-                right: 50px;
+                right: -20px;
                 margin-top: 100px;
+            }
+
+            @media screen and (min-width: 600px) and (max-width: 960px) {
+               margin-top: 50px;
+               right: -80px;
             }
 
             .indie-btn {
@@ -57,23 +70,27 @@
                 }
 
                 &::before {
-                    width: calc(100% + 18%);
-                    left: -480px;
+                    width: calc(100% + 34%);
+                    left: -540px;
 
                     @media screen and (min-width: 250px) and (max-width: 480px) {
-                        left: 0;
+                        left: -60px;
                         width: calc(100% - 66%);
                     }
 
                     @media screen and (min-width: 480px) and (max-width: 600px) {
-                        left: 0;
-                        width: calc(100% - 58%)
+                        left: -115px;
+                        width: calc(100% - 44%);
                     }
 
-                    @media screen and (min-width: 600px) and (max-width: 950px) {
-                        left: -170px;
-                        width: calc(100% - 32%);
+                    @media screen and (min-width: 600px) and (max-width: 960px) {
+                        left: -375px;
+                        width: calc(100% - 1%);
                     }
+
+                    @media screen and (min-width: 960px) and (max-width: 1200px) {
+                        left: -250px;
+                        width: calc(100% - 28%);                }
                 }
             }
         }
@@ -90,7 +107,7 @@
             width: 450px;
             z-index: -5;
 
-            @media screen and (max-width: 600px) {
+            @media screen and (max-width: 960px) {
                 width: 100%;
                 height: auto;
             }
@@ -99,7 +116,7 @@
                 height: 450px;
                 width: 450px;
 
-                @media screen and (max-width: 600px) {
+                @media screen and (max-width: 960px) {
                     width: 100%;
                     height: auto;
                 }
@@ -114,7 +131,7 @@
             width: 450px;
             background: #0000003d;
 
-            @media screen and (max-width: 600px) {
+            @media screen and (max-width: 960px) {
                 display: none;
             }
           }

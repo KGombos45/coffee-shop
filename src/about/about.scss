@@ -32,7 +32,7 @@
 
             .rec-carousel-wrapper {
                 width: 100%;
-                @media screen and (min-width: 1000px) {
+                @media screen and (min-width: 1080px) {
                     display: none;
                 }
 
@@ -73,7 +73,7 @@
                 display: inline-block;
                 margin: 10px;
 
-                @media screen and (max-width: 1000px) {
+                @media screen and (max-width: 1080px) {
                     display: none;
                 }
 
@@ -114,8 +114,8 @@
                     }
         
                     &::before {
-                        left: -216px;
-                        width: calc(100% - 1%);
+                        left: -255px;
+                        width: calc(100% + 2%);
 
                         @media screen and (max-width: 480px) {
                             width: calc(100% - 52%);

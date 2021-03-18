@@ -17,13 +17,15 @@ function AppVisit() {
                             <div className="visit-text">
                                 In the heart of Carmel, Indiana, we’ve transformed a quaint little home into a unique and inviting coffeeshop. We’d love for you to come by and say hello.
                         </div>
-                            <div className="button-container">
-                                <a href="https://indie-coffee-roasters.square.site/" target="_blank" rel="noreferrer">
-                                    <button type="primary" className="indie-btn">
-                                        VISIT THE DOGHOUSE
+                            <ScrollAnimation animateIn='slideInLeft' initiallyVisible={false} animateOnce={true} duration={1.4}>
+                                <div className="button-container">
+                                    <a href="https://indie-coffee-roasters.square.site/" target="_blank" rel="noreferrer">
+                                        <button type="primary" className="indie-btn">
+                                            VISIT THE DOGHOUSE
                             </button>
-                                </a>
-                            </div>
+                                    </a>
+                                </div>
+                            </ScrollAnimation>
                             <div className="section-title">
                                 VISIT
                         </div>

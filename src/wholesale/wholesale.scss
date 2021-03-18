@@ -1,33 +1,33 @@
 .wholesale {
     padding: 100px 0 150px 0;
     background: var(--slate);
-}
 
-.section-title {
-    margin-bottom: -130px;
-    text-align: center;
-
-    @media screen and (min-width: 375px) and (max-width: 480px) {
-        font-size: 45px;
-        margin-bottom: -40px !important;
-    }
-
-    @media screen and (min-width: 480px) and (max-width: 600px) {
-        font-size: 55px;
-        margin-bottom: -40px !important;
-    }
-
+    .section-title {
+        margin-bottom: -130px;
+        text-align: center;
     
-    @media screen and (min-width: 600px) and (max-width: 800px) {
-        font-size: 80px;
-        margin-bottom: -40px !important;
+        @media screen and (min-width: 375px) and (max-width: 480px) {
+            font-size: 45px;
+            margin-bottom: -40px !important;
+        }
+    
+        @media screen and (min-width: 480px) and (max-width: 600px) {
+            font-size: 55px;
+            margin-bottom: -40px !important;
+        }
+    
+        
+        @media screen and (min-width: 600px) and (max-width: 800px) {
+            font-size: 80px;
+            margin-bottom: -40px !important;
+        }
+    
+        @media screen and (min-width: 800px) and (max-width: 1050px) {
+            font-size: 120px;
+            margin-bottom: -40px !important;
+        }
+    
     }
-
-    @media screen and (min-width: 800px) and (max-width: 1050px) {
-        font-size: 120px;
-        margin-bottom: -40px !important;
-    }
-
 }
 
 .wholesale-container {
@@ -92,8 +92,8 @@
                 }
 
                 &::before {
-                    width: calc(100% + 34%);
-                    right: -430px;
+                    width: calc(100% + 22%);
+                    right: -370px;                
 
                     @media screen and (max-width: 600px) {
                         width: calc(100% - 10%);

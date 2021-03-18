@@ -62,7 +62,7 @@ function AppAbout() {
 
                         <div className="about-text">
                             This whole business started with a batch of coffee in a Whirlypop popcorn machine. Shocked? So are we. But, we wouldn’t have it any other way.
-
+                            <ScrollAnimation animateIn='slideInLeft' initiallyVisible={false} animateOnce={true} duration={1.4}>
                             <div className="button-container">
                                 <a>
                                     <button type="primary" className="indie-btn">
@@ -70,6 +70,7 @@ function AppAbout() {
                                     </button>
                                 </a>
                             </div>
+                            </ScrollAnimation>
                         </div>
                     </div>
                     
