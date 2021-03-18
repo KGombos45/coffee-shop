@@ -8,9 +8,10 @@ import "animate.css/animate.compat.css";
 import NavbarSection from './navbar/navbar';
 import FooterSection from './footer/footer';
 import ContactSection from './contact/ContactSection';
-import Home from './pages/home/home';
-import WholesalePage from './pages/wholesalepage/wholesalepage';
+import Home from './pages/home/Home';
+import WholesalePage from './pages/wholesalepage/WholeSalePage';
 import ScrollToTop from './components/ScrollToTop';
+import AboutPage from './pages/about/AboutPage';
 
 
 function App() {
@@ -20,11 +21,14 @@ function App() {
       <NavbarSection />
       <ScrollToTop/>
         <Switch>
-          <Route exact path="">
+          <Route exact path="/">
             <Home />
           </Route>
           <Route path="/wholesale">
             <WholesalePage />
+          </Route>
+          <Route path="/about">
+            <AboutPage />
           </Route>
         </Switch>
         <ContactSection/>

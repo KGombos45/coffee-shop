@@ -1,5 +1,6 @@
 import React from 'react';
 import './about.scss';
+import { Link } from 'react-router-dom';
 import ScrollAnimation from 'react-animate-on-scroll';
 import Carousel from 'react-elastic-carousel';
 import coffeeBags from '../../assets/img/about-coffeebags.jpg';
@@ -64,11 +65,11 @@ function AboutSection() {
                             This whole business started with a batch of coffee in a Whirlypop popcorn machine. Shocked? So are we. But, we wouldn’t have it any other way.
                             <ScrollAnimation animateIn='slideInLeft' initiallyVisible={false} animateOnce={true} duration={1.4}>
                             <div className="button-container">
-                                <a>
+                                <Link to='/about'>
                                     <button type="primary" className="indie-btn">
                                         LEARN MORE
                                     </button>
-                                </a>
+                                </Link>
                             </div>
                             </ScrollAnimation>
                         </div>
