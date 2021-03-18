@@ -45,11 +45,11 @@ function NavbarSection() {
                 <a className="menu-link" href="https://indie-coffee-roasters.square.site/" target="_blank">shop</a>
                 <Link className="menu-link" to="/wholesale">wholesale</Link>
                 <Link className="menu-link" to="/about">about</Link>
-                <Link className="menu-link" to="learn" smooth={true} duraction={1000} spy={true} activeClass="active">learn</Link>
-                <Link className="menu-link" to="visit" smooth={true} duraction={1000} spy={true} activeClass="active">visit</Link>
-                <Link className="menu-link" to="subscribe" smooth={true} duraction={1000} spy={true} activeClass="active">subscribe</Link>
-                <Link className="menu-link" to="contact" smooth={true} duraction={1000} spy={true} activeClass="active">contact</Link>
-                <Link className="menu-link" to="blog" smooth={true} duraction={1000} spy={true} activeClass="active">blog</Link>
+                <Link className="menu-link" to="/learn">learn</Link>
+                <Link className="menu-link" to="/visit">visit</Link>
+                <Link className="menu-link" to="/subscribe">subscribe</Link>
+                <Link className="menu-link" to="/contact">contact</Link>
+                <Link className="menu-link" to="blog">blog</Link>
             </div>
         </nav>
     )
