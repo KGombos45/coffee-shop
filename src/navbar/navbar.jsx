@@ -47,8 +47,6 @@ function NavbarSection() {
                 <Link className="menu-link" to="/about">about</Link>
                 <Link className="menu-link" to="/learn">learn</Link>
                 <Link className="menu-link" to="/visit">visit</Link>
-                <Link className="menu-link" to="/subscribe">subscribe</Link>
-                <Link className="menu-link" to="/contact">contact</Link>
                 <Link className="menu-link" to="blog">blog</Link>
             </div>
         </nav>
