@@ -1,0 +1,135 @@
+.learn-tickets {
+    width: 100%;
+    background: var(--slate);
+    color: var(--white);
+    padding: 100px 0 100px 0;
+
+    .learn-tickets-container {
+        width: 100%;
+
+        .section-right {
+            max-width: 25%;
+        }
+
+        @media screen and (max-width: 800px) {
+            .section-left {
+                max-width: 100% !important;
+            }
+        }
+
+        @media screen and (max-width: 1000px) {
+            flex-direction: column;
+        }
+
+        .section-left, .section-right {
+            display: inline-block;
+
+            .section-sub-header {
+                font-size: 48px;
+                font-weight: bold;
+                margin: 20px 0 20px 0;
+                color: var(--white);  
+                
+                @media screen and (max-width: 800px) {
+                    font-size: 32px;
+                }         
+                
+                @media screen and (max-width: 1150px) {
+                    font-size: 38px;
+                }
+            }
+    
+            .section-title {
+                margin-bottom: -85px;
+                text-align: left;
+                font-size: 135px;
+    
+                @media screen and (max-width: 800px) {
+                    font-size: 85px;
+                    left: 0;
+                    margin-bottom: -56px;
+                }
+
+                
+                @media screen and (min-width: 800px) and (max-width: 1000px) {
+                    font-size: 95px;
+                    margin-bottom: -65px;
+                    text-align: left;
+                    position: relative;
+                    left: -50px;
+                }
+
+                @media screen and (min-width: 1000px) and (max-width: 1150px) {
+                    font-size: 110px;
+                    margin-bottom: -65px;
+                    text-align: left;
+                    position: relative;
+                    left: -50px;
+                }
+
+            }
+
+            .button-container {
+                text-align: left;
+                left: -50px;
+                height: 70px;
+                width: 275px;
+    
+                @media screen and (max-width: 800px) {
+                    width: 200px;
+                    font-size: 16px;
+                    height: 60px;
+                }
+    
+                @media screen and (min-width: 600px) and (max-width: 1100px) {
+                    left: -100px;
+                }
+    
+                .indie-btn {
+                    width: 275px;
+    
+                    @media screen and (max-width: 800px) {
+                        width: 200px;
+                        font-size: 16px;
+                        height: 60px;
+                    }
+    
+                    &::before {
+                        width: calc(100% + 66%);
+                        right: -455px;
+    
+                        @media screen and (max-width: 600px) {
+                            width: calc(100% + 66%);
+                            right: -315px;
+                        }
+                        
+                        @media screen and (min-width: 600px) and (max-width: 700px) {
+                            width: calc(100% + 66%);
+                            right: -315px;
+                        }
+    
+                        @media screen and (min-width: 700px) and (max-width: 800px) {
+                            width: calc(100% + 90%);
+                            right: -364px;
+                        }
+    
+                        @media screen and (min-width: 800px) and (max-width: 1000px) {
+                            width: calc(100% + 74%);
+                            right: -455px;                        
+                        }
+
+                        @media screen and (min-width: 1000px) and (max-width: 1100px) {
+                            width: calc(100% + 76%);
+                            right: -455px;
+                        }
+    
+                        @media screen and (min-width: 1100px) and (max-width: 1200px) {
+                            width: calc(100% + 70%);
+                            right: -455px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

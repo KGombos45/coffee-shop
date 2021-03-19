@@ -13,6 +13,7 @@ import WholesalePage from './pages/wholesalepage/WholeSalePage';
 import ScrollToTop from './components/ScrollToTop';
 import AboutPage from './pages/about/AboutPage';
 import VisitPage from './pages/visit/VisitPage';
+import LearnPage from './pages/learn/LearnPage';
 
 
 function App() {
@@ -33,6 +34,9 @@ function App() {
           </Route>
           <Route path="/visit">
             <VisitPage />
+          </Route>
+          <Route path="/learn">
+            <LearnPage />
           </Route>
         </Switch>
         <ContactSection/>

@@ -1,7 +1,7 @@
 import React from 'react';
-import WholeSaleBottom from './components/wholesale-bottom/WholeSaleBottom';
-import WholeSaleMid from './components/wholesale-mid/WholeSaleMid';
-import WholeSaleTop from './components/wholesale-top/WholeSaleTop';
+import WholeSaleBottom from './wholesale-bottom/WholeSaleBottom';
+import WholeSaleMid from './wholesale-mid/WholeSaleMid';
+import WholeSaleTop from './wholesale-top/WholeSaleTop';
 import './wholesalepage.scss';
 
 

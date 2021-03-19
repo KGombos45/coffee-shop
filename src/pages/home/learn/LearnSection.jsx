@@ -1,7 +1,8 @@
 import React from 'react';
 import './learn.scss';
+import { Link } from 'react-router-dom';
 import ScrollAnimation from 'react-animate-on-scroll';
-import learn from '../../../assets/img/learn.svg';
+import learn from '../../assets/img/learn.svg';
 
 function LearnSection() {
     return (
@@ -26,11 +27,11 @@ function LearnSection() {
                                 <img src={learn}></img>
                             <ScrollAnimation animateIn='slideInRight' initiallyVisible={false} animateOnce={true} duration={1.4}>
                             <div className="button-container">
-                            <a>
+                            <Link to="/learn">
                                 <button type="primary" className="indie-btn">
                                     READ MORE
                                 </button>
-                            </a>
+                            </Link>
                             </div>
                             </ScrollAnimation>
                             </div>

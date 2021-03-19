@@ -1,9 +1,9 @@
 import React from 'react';
 import './wholesalemid.scss';
 import ScrollAnimation from 'react-animate-on-scroll';
-import highQuality from '../../../assets/img/high-quality.svg';
-import personalService from '../../../assets/img/personal-service.svg';
-import flexibility from '../../../assets/img/flexibility.svg';
+import highQuality from '../../assets/img/high-quality.svg';
+import personalService from '../../assets/img/personal-service.svg';
+import flexibility from '../../assets/img/flexibility.svg';
 
 function WholeSaleMid() {
 

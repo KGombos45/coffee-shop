@@ -1,11 +1,11 @@
 import React from 'react';
 import BannerSection from '../../banner/banner';
-import ShopSection from './components/shop/ShopSection';
-import WholesaleSection from './components/wholesale/WholeSaleSection';
-import AboutSection from './components/about/AboutSection';
-import LearnSection from './components/learn/LearnSection';
-import VisitSection from './components/visit/VisitSection';
-import AppSubscribe from './components/subscribe/SubscribeSection';
+import ShopSection from './shop/ShopSection';
+import WholesaleSection from './wholesale/WholeSaleSection';
+import AboutSection from './about/AboutSection';
+import LearnSection from './learn/LearnSection';
+import VisitSection from './visit/VisitSection';
+import AppSubscribe from './subscribe/SubscribeSection';
 
 function Home() {
     return (
