@@ -117,9 +117,14 @@
                     width: calc(100% + 58%);
                     left: -535px;
 
-                    @media screen and (max-width: 600px) {
+                    @media screen and (max-width: 480px) {
                         left: -100px;
-                        width: calc(100% - 14%);
+                        width: calc(100% - 22%);
+                    }
+
+                    @media screen and (min-width: 480px) and (max-width: 600px) {
+                        left: -100px;
+                        width: calc(100% - 18%);
                     }
                     
                     @media screen and (min-width: 600px) and (max-width: 700px) {
