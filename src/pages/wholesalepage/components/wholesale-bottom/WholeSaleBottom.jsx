@@ -1,7 +1,7 @@
 import React from 'react';
 import './wholesalebottom.scss';
 import ScrollAnimation from 'react-animate-on-scroll';
-import productImg from '../../assets/img/product-here.jpg';
+import productImg from '../../../assets/img/product-here.jpg';
 
 function WholeSaleBottom() {
     return (

@@ -1,8 +1,8 @@
 import React from 'react';
 import './shop.scss';
 import ScrollAnimation from 'react-animate-on-scroll';
-import coffeeBeans from '../../assets/img/coffeebeans.svg';
-import shop from '../../assets/img/shop.jpg';
+import coffeeBeans from '../../../assets/img/coffeebeans.svg';
+import shop from '../../../assets/img/shop.jpg';
 
 
 function ShopSection() {

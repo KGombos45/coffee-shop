@@ -1,7 +1,7 @@
 import React from 'react';
 import './learn.scss';
 import ScrollAnimation from 'react-animate-on-scroll';
-import learn from '../../assets/img/learn.svg';
+import learn from '../../../assets/img/learn.svg';
 
 function LearnSection() {
     return (

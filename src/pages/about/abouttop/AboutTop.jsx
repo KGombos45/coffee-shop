@@ -1,7 +1,7 @@
 import React from 'react';
 import './abouttop.scss';
 import ScrollAnimation from 'react-animate-on-scroll';
-import outsideSign from '../assets/img/outsidesign.jpg';
+import outsideSign from '../../assets/img/outsidesign.jpg';
 
 function AboutTop() {
     return (

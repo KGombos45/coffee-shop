@@ -1,7 +1,7 @@
 import React from 'react';
 import './visit.scss';
 import ScrollAnimation from 'react-animate-on-scroll';
-import outsideIndie from '../../assets/img/outsideindie.jpg';
+import outsideIndie from '../../../assets/img/outsideindie.jpg';
 
 function VisitSection() {
     return (

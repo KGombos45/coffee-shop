@@ -67,12 +67,14 @@
 
         .about-text-container {
 
-            @media screen and (max-width: 600px) {
+            @media screen and (max-width: 1000px) {
                 flex-direction: column;
                 align-items: center;
-
+        
                 .section-left, .section-right {
                     max-width: 100% !important;
+                    padding: 0 40px !important;
+                    margin: 0;
                 }
             }
 

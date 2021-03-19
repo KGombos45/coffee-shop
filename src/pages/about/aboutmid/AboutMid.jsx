@@ -2,9 +2,9 @@ import React from 'react';
 import './aboutmid.scss';
 import ScrollAnimation from 'react-animate-on-scroll';
 import Carousel from 'react-elastic-carousel';
-import coffeeBags from '../../home/assets/img/about-coffeebags.jpg';
-import indieDog from '../../home/assets/img/about-indie.jpg';
-import oldCoffeeBags from '../../home/assets/img/about-oldcoffeebags.jpg';
+import coffeeBags from '../../assets/img/about-coffeebags.jpg';
+import indieDog from '../../assets/img/about-indie.jpg';
+import oldCoffeeBags from '../../assets/img/about-oldcoffeebags.jpg';
 
 
 function AboutMid() {

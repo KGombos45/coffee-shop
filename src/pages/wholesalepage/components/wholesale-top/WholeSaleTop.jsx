@@ -1,7 +1,7 @@
 import React from 'react';
 import './wholesaletop.scss';
 import ScrollAnimation from 'react-animate-on-scroll';
-import wholeSaleImg from '../../assets/img/wholesale.jpg';
+import wholeSaleImg from '../../../assets/img/wholesale.jpg';
 
 function WholeSaleTop() {
     return (
