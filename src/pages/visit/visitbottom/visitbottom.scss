@@ -1,0 +1,21 @@
+.visit-bottom {
+    width: 100%;
+    background: var(--slate);
+    padding: 100px 0 100px 0;
+
+    .body-container {
+        max-width: 1400px;
+    }
+
+    .visit-imgs-container {
+        width: 100%;
+
+        .img-container {
+            width: 100%;
+
+            img {
+                width: 100%;
+            }
+        }
+    }
+}

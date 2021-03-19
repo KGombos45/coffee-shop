@@ -29,6 +29,10 @@
                 }
             }
 
+            img {
+                box-shadow: 10px -8px 0px 2px var(--lightGreen);
+            }
+
             display: flex;
 
             .section-sub-header {

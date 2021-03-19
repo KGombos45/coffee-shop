@@ -1,5 +1,6 @@
 import React from 'react';
 import './visit.scss';
+import { Link } from 'react-router-dom';
 import ScrollAnimation from 'react-animate-on-scroll';
 import outsideIndie from '../../../assets/img/outsideindie.jpg';
 
@@ -19,11 +20,11 @@ function VisitSection() {
                         </div>
                             <ScrollAnimation animateIn='slideInLeft' initiallyVisible={false} animateOnce={true} duration={1.4}>
                                 <div className="button-container">
-                                    <a href="https://indie-coffee-roasters.square.site/" target="_blank" rel="noreferrer">
+                                    <Link to="/visit">
                                         <button type="primary" className="indie-btn">
                                             VISIT THE DOGHOUSE
-                            </button>
-                                    </a>
+                                        </button>
+                                    </Link>
                                 </div>
                             </ScrollAnimation>
                             <div className="section-title">

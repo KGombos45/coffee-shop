@@ -12,6 +12,7 @@ import Home from './pages/home/Home';
 import WholesalePage from './pages/wholesalepage/WholeSalePage';
 import ScrollToTop from './components/ScrollToTop';
 import AboutPage from './pages/about/AboutPage';
+import VisitPage from './pages/visit/VisitPage';
 
 
 function App() {
@@ -29,6 +30,9 @@ function App() {
           </Route>
           <Route path="/about">
             <AboutPage />
+          </Route>
+          <Route path="/visit">
+            <VisitPage />
           </Route>
         </Switch>
         <ContactSection/>
