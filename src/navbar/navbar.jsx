@@ -43,10 +43,10 @@ function NavbarSection() {
             <div className={navBarMobile ? 'menuItems-link-wrapper active' : 'menuItems-link-wrapper'}>
 
                 <a className="menu-link" href="https://indie-coffee-roasters.square.site/" target="_blank">shop</a>
-                <Link className="menu-link" to="/wholesale">wholesale</Link>
-                <Link className="menu-link" to="/about">about</Link>
-                <Link className="menu-link" to="/learn">learn</Link>
-                <Link className="menu-link" to="/visit">visit</Link>
+                <Link className="menu-link" to="/wholesale" onClick={handleClick}>wholesale</Link>
+                <Link className="menu-link" to="/about" onClick={handleClick}>about</Link>
+                <Link className="menu-link" to="/learn" onClick={handleClick}>learn</Link>
+                <Link className="menu-link" to="/visit" onClick={handleClick}>visit</Link>
             </div>
         </nav>
     )
