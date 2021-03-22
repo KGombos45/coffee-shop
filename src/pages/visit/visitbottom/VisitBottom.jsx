@@ -42,7 +42,9 @@ function VisitBottom() {
                         Data.map((item) => {
                             return (
                                 <div className="img-container">
-                                    <img src={item.src} alt={item.alt}></img>
+                                    <ScrollAnimation animateIn='fadeIn' initiallyVisible={false} animateOnce={true} duration={1.4}>
+                                        <img src={item.src} alt={item.alt}></img>
+                                    </ScrollAnimation>
                                 </div>
                             )
 

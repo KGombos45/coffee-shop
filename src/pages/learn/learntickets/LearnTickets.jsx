@@ -6,7 +6,10 @@ function LearnTickets() {
     return (
         <section className="learn-tickets">
             <div className="body-container flex">
+            <ScrollAnimation animateIn='fadeIn' initiallyVisible={false} animateOnce={true} duration={1.4}>
+
                 <div className="learn-tickets-container flex row">
+                    
                     <div className="section-left">
                         <div className="section-title">
                             JOIN US
@@ -26,6 +29,8 @@ function LearnTickets() {
                         </ScrollAnimation>
                     </div>
                 </div>
+                </ScrollAnimation>
+
             </div>
         </section>
     )
