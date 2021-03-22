@@ -59,6 +59,10 @@
         .wholesale-text {
             font-size: 20px;
             line-height: 1.4em;
+
+            @media screen and (max-width: 480px) {
+                font-size: 16px;
+              }
         }
     
         .section-sub-header {
@@ -72,8 +76,12 @@
             margin-top: 70px;
             text-align: left;
 
-            @media screen and (max-width: 600px) {
-                margin-top: 360px;
+            @media screen and (max-width: 480px) {
+                margin-top: 315px;
+              }
+
+            @media screen and (min-width: 480px) and (max-width: 600px) {
+                margin-top: 325px;
             }
 
             @media screen and (min-width: 800px) and (max-width: 1000px) {

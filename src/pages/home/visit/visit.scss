@@ -1,5 +1,6 @@
 .visit {
     padding: 100px 0 100px 0;
+    background: var(--white);
 }
 
 .visit-container {
@@ -37,6 +38,10 @@
             font-size: 20px;
             line-height: 1.4em;
             max-width: 450px;
+
+            @media screen and (max-width: 480px) {
+                font-size: 16px;
+            }
         }
 
         .section-sub-header {

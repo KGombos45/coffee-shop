@@ -1,9 +1,6 @@
 .learn {
     padding: 100px 0 100px 0;
     background: var(--slate);
-}
-
-.learn-container {
 
     .section-title {
         margin-bottom: -130px;
@@ -11,8 +8,11 @@
         @media screen and (max-width: 600px) {
             margin-bottom: -40px;
         }
+        
     }
+}
 
+.learn-container {
     
     padding: 50px 0 50px 0;
 
@@ -42,6 +42,10 @@
             font-size: 20px;
             line-height: 1.4em;
             margin-bottom: 60px;
+
+            @media screen and (max-width: 480px) {
+                font-size: 16px;
+            }
         }
     
         .section-sub-header {
@@ -55,7 +59,12 @@
             margin-top: 70px;
             text-align: left;
 
-            @media screen and (max-width: 600px) {
+
+            @media screen and (max-width: 480px) {
+                margin-top: 300px;
+            }
+
+            @media screen and (min-width: 480px) and (max-width: 600px) {
                 margin-top: 360px;
             }
 

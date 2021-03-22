@@ -21,7 +21,7 @@ function AppSubscribe() {
                         </div>
                     </div>
                     <div className="flex section-right">
-                        <div className="input-container">
+                        <div className="input-container flex">
                             <input type="email" placeholder="EMAIL" className="indie-input"></input>
                         </div>
                         <ScrollAnimation animateIn='slideInRight' initiallyVisible={false} animateOnce={true} duration={1.4}>

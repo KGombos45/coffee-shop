@@ -8,7 +8,7 @@ function ContactSection() {
             <div className="body-container flex">
             <ScrollAnimation animateIn='fadeIn' initiallyVisible={false} animateOnce={true} duration={1.4}>
                 <div className="contact-container flex row">
-                    <div className="flex section-contact">
+                    <div className="flex section-left">
                         <div className="section-sub-header">
                             Contact Us
                             <div className="section-title-underline sub-header-underline" />
@@ -17,14 +17,14 @@ function ContactSection() {
                             Questions? Comments? Concerns? We’d love to hear from you. Drop us a line and we’ll fetch you an answer right away.                       
                         </div>
                     </div>
-                    <div className="flex section-contact-form">
-                        <div className="input-container">
+                    <div className="flex section-right">
+                        <div className="input-container flex">
                             <input type="text" placeholder="NAME" className="indie-input"></input>
                         </div>
-                        <div className="input-container">
+                        <div className="input-container flex">
                             <input type="email" placeholder="EMAIL" className="indie-input"></input>
                         </div>
-                        <div className="input-container">
+                        <div className="input-container flex">
                             <textarea placeholder="MESSAGE" className="indie-textarea"></textarea>
                         </div>
                         <ScrollAnimation animateIn='slideInRight' initiallyVisible={false} animateOnce={true} duration={1.4}>
