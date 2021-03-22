@@ -13,6 +13,10 @@
         left: 0;
         top: 0;
         position: fixed;
+        will-change: transform;
+        -webkit-backface-visibility: hidden;
+        -webkit-perspective: 1000;
+        -webkit-transform: translate3d(0, 0, 0);
 
         @media screen and (max-width: 800px) {
             height: 100vh;
