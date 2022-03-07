@@ -18,14 +18,17 @@ function ContactSection() {
                         </div>
                     </div>
                     <div className="flex section-right">
-                        <div className="input-container flex">
-                            <input type="text" placeholder="NAME" className="indie-input"></input>
-                        </div>
-                        <div className="input-container flex">
-                            <input type="email" placeholder="EMAIL" className="indie-input"></input>
-                        </div>
-                        <div className="input-container flex">
-                            <textarea placeholder="MESSAGE" className="indie-textarea"></textarea>
+                        <div className="form-container">
+                            <div className="background-blur"></div>
+                            <div className="input-container flex">
+                                <input type="text" placeholder="NAME" className="indie-input"></input>
+                            </div>
+                            <div className="input-container flex">
+                                <input type="email" placeholder="EMAIL" className="indie-input"></input>
+                            </div>
+                            <div className="input-container flex">
+                                <textarea placeholder="MESSAGE" className="indie-textarea"></textarea>
+                            </div>
                         </div>
                         <ScrollAnimation animateIn='slideInRight' initiallyVisible={false} animateOnce={true} duration={1.4}>
                         <div className="button-container">
